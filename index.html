@@ -9,13 +9,13 @@
 
 <body>
     <header>
-      <img src="road.png" alt="Profile photo of Julian Pas" class="profile-img">
+      <img src="profile-photo.png" alt="Profile photo of Julian Pas" class="profile-img">
         <h1>Julian Pas</h1>
         <p>
             <a href="mailto:Jpas@uoregon.edu">Jpas@uoregon.edu</a> • 
             <a href="tel:+18185161361">123-456-789</a> • 
         
-            <a href="#" target="_blank">GitHub</a>
+            <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
         </p>
         <hr>
     </header>
@@ -28,75 +28,15 @@
     <ul>
         <li>
             <h3>Project 1</h3> used Python to create a scene using multiple visual elements.
-            <a href="Project1.py" download>Project 1</a>
-                ><a href="Beach Scene.png">
-    <img src="project1-screenshot.png" width=300, height="300" alt="Scene created in...">
-</a>
-
-                 /></a>
-        </li><br>
-        <h3>Sample Code </h3>
-    <code>
-        </code><pre>import turtle
-    t.penup()
-t.goto(300, 250)  # position the sun
-t.pendown()
-t.color("yellow")
-t.begin_fill()
-t.circle(50)  # radius of the sun
-t.end_fill()
-#I used chat gpt to help me learn to make little birds 
-def draw_bird(x, y, size=30):
-    t.color("white")
-    t.penup()
-    t.goto(x, y)
-    t.pendown()
-    t.setheading(0)  
-    t.forward(size)
-    t.right(120)
-    t.forward(size)
-    t.penup()
-    t.goto(x, y)
-    t.pendown()
-    t.setheading(0)
-    t.forward(size)
-    t.left(120)
-    t.forward(size)
-    </code>
- <li>
-            <h3> Project 2</h3> I made a beach scene using Python.
-            <a href="Project2.py" download>Project 2</a>
-            <a href="Screenshot 2025-12-09 at 10.52.55 PM.png">
-                <img
-                      src="Screenshot 2025-12-09 at 10.52.55 PM.png"width=300, height="300"
-                      alt="Beach Scene created in Python"
-                      class="project-image"
-                 /></a>
-                  <h3>Sample Code </h3>
-                 <code>
-                    <pre>import turtle
-                 Def setup_turtle():
-    """Initialize turtle with standard settings"""
-    t = turtle.Turtle()
-    t.speed(0)  # Fastest speed
-    screen = turtle.Screen()
-    screen.title("Project2")
-    return t, screen
-
-#helper functions
-def draw_rectangle(t, width, height, fill_color=None):
-    """Draw a rectangle with optional fill"""
-    if fill_color:
-        t.fillcolor(fill_color)
-        t.begin_fill()
-    for _ in range(2):
-        t.forward(width)
-        t.right(90)
-        t.forward(height)
-        t.right(90)
-    if fill_color:
-        t.end_fill()  
-              </code>
+            <a href="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/project1.py">Project 1 (Download)</a>
+            
+            <a href="project-screenshot.png" target="_blank"
+                ><img
+                      src="project-screenshot.png" width=300, height="300"
+                      alt="Scene created in Python using Turtle graphics"
+                >
+            </a>
+            
         </li><br>
 
         <li>
@@ -140,12 +80,7 @@ def draw_rectangle(t, width, height, fill_color=None):
     </section>
 
     <footer>
-        <p>© 2025 Julian Pas — All rights reserved.</p>
+        <p>&copy; 2025 Julian Pas. All rights reserved.</p>
     </footer>
-
-
-
-
-
 </body>
 </html>
