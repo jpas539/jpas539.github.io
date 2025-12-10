@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian Pas - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+      <img src="ChatGPT Image Dec 3, 2025, 10_38_27 PM.png" alt="Profile photo of Julian Pas" class="profile-img">
+        <h1>Julian Pas</h1>
+        <p>
+            <a href="mailto:Jpas@uoregon.edu">Jpas@uoregon.edu</a> • 
+            <a href="tel:+18185161361">123-456-789</a> • 
+        
+            <a href="#" target="_blank">GitHub</a>
+        </p>
+        <hr>
+    </header>
+
+    <section>
+
+<h2>My Projects</h2>
+
+<div class="projects">
+    <ul>
+        <li>
+            <h3>Project 1</h3> used Python to create a scene using multiple visual elements.
+            <a href="Project1.py" download>Project 1</a>
+            <a href="Screenshot 2025-12-09 at 10.35.20 PM.png"
+                ><img
+                      src="Screenshot 2025-12-09 at 10.35.20 PM.png"width=300, height="300"
+                      alt="Scene created in Python"
+                      class="project-image"
+
+                 /></a>
+        </li><br>
+        <h3>Sample Code </h3>
+    <code>
+        </code><pre>import turtle
+    t.penup()
+t.goto(300, 250)  # position the sun
+t.pendown()
+t.color("yellow")
+t.begin_fill()
+t.circle(50)  # radius of the sun
+t.end_fill()
+#I used chat gpt to help me learn to make little birds 
+def draw_bird(x, y, size=30):
+    t.color("white")
+    t.penup()
+    t.goto(x, y)
+    t.pendown()
+    t.setheading(0)  
+    t.forward(size)
+    t.right(120)
+    t.forward(size)
+    t.penup()
+    t.goto(x, y)
+    t.pendown()
+    t.setheading(0)
+    t.forward(size)
+    t.left(120)
+    t.forward(size)
+    </code>
+ <li>
+            <h3> Project 2</h3> I made a beach scene using Python.
+            <a href="Project2.py" download>Project 2</a>
+            <a href="Screenshot 2025-12-09 at 10.52.55 PM.png">
+                <img
+                      src="Screenshot 2025-12-09 at 10.52.55 PM.png"width=300, height="300"
+                      alt="Beach Scene created in Python"
+                      class="project-image"
+                 /></a>
+                  <h3>Sample Code </h3>
+                 <code>
+                    <pre>import turtle
+                 Def setup_turtle():
+    """Initialize turtle with standard settings"""
+    t = turtle.Turtle()
+    t.speed(0)  # Fastest speed
+    screen = turtle.Screen()
+    screen.title("Project2")
+    return t, screen
+
+#helper functions
+def draw_rectangle(t, width, height, fill_color=None):
+    """Draw a rectangle with optional fill"""
+    if fill_color:
+        t.fillcolor(fill_color)
+        t.begin_fill()
+    for _ in range(2):
+        t.forward(width)
+        t.right(90)
+        t.forward(height)
+        t.right(90)
+    if fill_color:
+        t.end_fill()  
+              </code>
+        </li><br>
+
+        <li>
+            <h3>Project 6:</h3> I used collab to compare draft picks of nba players with performances.
+            <a href="https://colab.research.google.com/drive/1RZ_T5EV6mS7VB5Ai7ywoMnIEe3KzyIi7" target="_blank">Project 6</a>
+
+        </li>
+    </ul>
+</div>
+
+
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p><strong>University of Oregon</strong> — Business Major<br>Expected Graduation: June 2028</p>
+        <p><strong>Palisades Charter High School</strong> — Graduated June 2024</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Microsoft Excel</li>
+            <li>PowerPoint</li>
+            <li>Building computers</li>
+        
+        </ul>
+
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Communication</li>
+            <li>Leadership</li>
+            <li>Teamwork</li>
+            <li>Customer service skills</li>
+        </ul>
+    </section>
+
+   
+    </section>
+
+    <footer>
+        <p>© 2025 Julian Pas — All rights reserved.</p>
+    </footer>
+
+
+
+
+
+</body>
+</html>
